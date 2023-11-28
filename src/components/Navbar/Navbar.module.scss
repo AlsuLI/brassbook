@@ -1,0 +1,65 @@
+.header__wrapper{
+  max-height: 1200px;
+background:  url("./звезды.png"), center/cover no-repeat url("./Union2 (convert.io).webp");
+padding: 60px 0 120px 60px;
+}
+a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav {
+  display: flex;
+  width: 432px;
+  justify-content: space-between;
+}
+.navigation__wrapper{
+ display: flex; 
+ justify-content: space-between;
+// max-width: 1320px;
+}
+.header__text__img__wrapper{
+  display: flex;
+
+}
+p {
+  max-width: 483px;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: -0.03em;
+text-align: left;
+color: #fff;
+}
+h1 {
+  
+  max-width: 815px;
+font-size: 80px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #fff;
+}
+.trumpet {
+position: relative;
+  left: 493px;
+  top: -18px;
+  width: 1251px;
+  height: 1251px;
+  z-index: 15;
+}
+.header__text{
+  position: absolute;
+
+}
+.notes{
+width: 707px;
+  height: 707px;
+  position: relative;
+  z-index: 20;
+  left: -243px;
+  bottom: 125px;
+  opacity: 0.4;
+}
